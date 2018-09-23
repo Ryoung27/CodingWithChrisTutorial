@@ -23,3 +23,22 @@ else if b < 1 {
 else {
     print("Branch 3")
 }
+
+//Switch Statements
+
+var someCharacter:Character = "a"
+
+if someCharacter == "a" {
+    print("is an A")
+}
+
+switch someCharacter{
+    case "d":
+        print("is an A")
+    case "b","d":
+        print("is a B or D")
+    case "c":
+        print("is a C")
+    default:
+        print("some fallback")
+}
