@@ -82,3 +82,25 @@ ronCall()
 richCall()
 //let newSum = addTwoNumbers(para: 2, para2: 2)
 
+//Classes
+
+class BlogPost {
+    var title = ""
+    var body = ""
+    var author = ""
+    var numberOfComments = 0
+
+    func addComment() {
+        numberOfComments += 1
+    }
+}
+
+let myPost = BlogPost()
+myPost.title = "Richie's Rad"
+mypost.author = "Ronnie Young"
+myPost.body = "Hello"
+myPost.addComment()
+print(myPost.numberOfComments)
+
+print(myPost.title)
+
