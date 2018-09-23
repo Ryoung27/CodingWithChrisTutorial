@@ -52,14 +52,33 @@ for index in 1...5 {
     print(index)
 }
 
+
 var counter = 0
+
+
+
+
+//Functions
+func ronCall() {
+    repeat {
+print("Ronnie")
+counter = counter - 1
+} while counter > 0
+}
+
+func richCall() {
 while counter < 10 {
     counter += 1
     print("Richie")
 }
+}
 
+//func addTwoNumbers(art para:Int, arg2 para2:Int) -> Int{
+//
+//    return para + para2
+//}
 
-repeat {
-print("Ronnie")
-counter = counter - 1
-} while counter > 0
+ronCall()
+richCall()
+//let newSum = addTwoNumbers(para: 2, para2: 2)
+
