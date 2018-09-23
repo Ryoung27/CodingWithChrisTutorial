@@ -84,23 +84,39 @@ richCall()
 
 //Classes
 
-class BlogPost {
-    var title = ""
-    var body = ""
-    var author = ""
-    var numberOfComments = 0
+//class BlogPost {
+//    var title = ""
+//    var body = ""
+//    var author = ""
+//    var numberOfComments = 0
+//
+//    func addComment() {
+//        numberOfComments += 1
+//    }
+//}
+//
+//let myPost = BlogPost()
+//myPost.title = "Richie's Rad"
+//mypost.author = "Ronnie Young"
+//myPost.body = "Hello"
+//myPost.addComment()
+//print(myPost.numberOfComments)
+//
+//print(myPost.title)
 
-    func addComment() {
-        numberOfComments += 1
-    }
-}
 
-let myPost = BlogPost()
-myPost.title = "Richie's Rad"
-mypost.author = "Ronnie Young"
-myPost.body = "Hello"
-myPost.addComment()
-print(myPost.numberOfComments)
+//class Person {
+//    var name = ""
+//    var age = 0
+//
+//
+//    init(n:String, a:Int) {
+//    name = n
+//    age = a
+//}
+//}
+//
+//var people = Person("Richie", 28)
 
-print(myPost.title)
+
 
