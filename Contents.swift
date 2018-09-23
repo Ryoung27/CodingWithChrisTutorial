@@ -42,3 +42,24 @@ switch someCharacter{
     default:
         print("some fallback")
 }
+
+//Loops
+
+for _ in 1...5 {
+    print("hello")
+}
+for index in 1...5 {
+    print(index)
+}
+
+var counter = 0
+while counter < 10 {
+    counter += 1
+    print("Richie")
+}
+
+
+repeat {
+print("Ronnie")
+counter = counter - 1
+} while counter > 0
